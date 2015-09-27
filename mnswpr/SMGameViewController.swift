@@ -58,15 +58,7 @@ class SMGameViewController: UIViewController, SKSceneDelegate, SMGameEndViewCont
     override func canBecomeFirstResponder() -> Bool {
         return true
     }
-    
-    override func motionBegan(motion: UIEventSubtype, withEvent event: UIEvent?) {
-        if motion == .MotionShake {
-            
-            AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
-            self.gameScene.resetScene()
-        }
-    }
-    
+
     // SMGameSceneDelegate
     
     func gameDidEnd() {
