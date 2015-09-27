@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4469E5771BB77B220025A204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4469E5761BB77B220025A204 /* Assets.xcassets */; };
-		4469E57A1BB77B220025A204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4469E5781BB77B220025A204 /* LaunchScreen.storyboard */; };
 		4469E5851BB77B220025A204 /* mnswprTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E5841BB77B220025A204 /* mnswprTests.swift */; };
 		4469E5901BB77B220025A204 /* MnswprUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E58F1BB77B220025A204 /* MnswprUITests.swift */; };
 		4469E59F1BB77B450025A204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E59D1BB77B450025A204 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
@@ -50,7 +49,6 @@
 		052B0F1716833358A8618B27 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4469E56C1BB77B220025A204 /* Mnswpr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mnswpr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4469E5761BB77B220025A204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4469E5791BB77B220025A204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4469E57B1BB77B220025A204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4469E5801BB77B220025A204 /* Mnswpr.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mnswpr.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4469E5841BB77B220025A204 /* mnswprTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mnswprTests.swift; sourceTree = "<group>"; };
@@ -153,7 +151,6 @@
 				4469E59D1BB77B450025A204 /* AppDelegate.swift */,
 				4469E59E1BB77B450025A204 /* DeviceTypes.swift */,
 				4469E5761BB77B220025A204 /* Assets.xcassets */,
-				4469E5781BB77B220025A204 /* LaunchScreen.storyboard */,
 				4469E57B1BB77B220025A204 /* Info.plist */,
 			);
 			name = Mnswpr;
@@ -297,7 +294,6 @@
 			files = (
 				4469E5B91BB77B4E0025A204 /* tapResonant.wav in Resources */,
 				4469E5B81BB77B4E0025A204 /* tapMellowUp.wav in Resources */,
-				4469E57A1BB77B220025A204 /* LaunchScreen.storyboard in Resources */,
 				4469E5AE1BB77B4E0025A204 /* popDrip.wav in Resources */,
 				4469E5B71BB77B4E0025A204 /* tapMellow.wav in Resources */,
 				4469E5771BB77B220025A204 /* Assets.xcassets in Resources */,
@@ -418,17 +414,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		4469E5781BB77B220025A204 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4469E5791BB77B220025A204 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		4469E5921BB77B220025A204 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -516,6 +501,7 @@
 			baseConfigurationReference = C3A82799DBE0E296934440CF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Mnswpr/Info.plist;
@@ -531,6 +517,7 @@
 			baseConfigurationReference = B06D395A2FF0C9AEA0456C33 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Mnswpr/Info.plist;
