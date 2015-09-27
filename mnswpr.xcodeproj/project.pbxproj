@@ -12,7 +12,6 @@
 		4469E5901BB77B220025A204 /* MnswprUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E58F1BB77B220025A204 /* MnswprUITests.swift */; };
 		4469E59F1BB77B450025A204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E59D1BB77B450025A204 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
 		4469E5A01BB77B450025A204 /* DeviceTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E59E1BB77B450025A204 /* DeviceTypes.swift */; settings = {ASSET_TAGS = (); }; };
-		4469E5AE1BB77B4E0025A204 /* popDrip.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4469E5A11BB77B4E0025A204 /* popDrip.wav */; settings = {ASSET_TAGS = (); }; };
 		4469E5AF1BB77B4E0025A204 /* SMGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E5A21BB77B4E0025A204 /* SMGame.swift */; settings = {ASSET_TAGS = (); }; };
 		4469E5B01BB77B4E0025A204 /* SMGameEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E5A31BB77B4E0025A204 /* SMGameEndViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		4469E5B11BB77B4E0025A204 /* SMGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E5A41BB77B4E0025A204 /* SMGameScene.swift */; settings = {ASSET_TAGS = (); }; };
@@ -23,7 +22,6 @@
 		4469E5B61BB77B4E0025A204 /* SMTileSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E5A91BB77B4E0025A204 /* SMTileSprite.swift */; settings = {ASSET_TAGS = (); }; };
 		4469E5B71BB77B4E0025A204 /* tapMellow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4469E5AA1BB77B4E0025A204 /* tapMellow.wav */; settings = {ASSET_TAGS = (); }; };
 		4469E5B81BB77B4E0025A204 /* tapMellowUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4469E5AB1BB77B4E0025A204 /* tapMellowUp.wav */; settings = {ASSET_TAGS = (); }; };
-		4469E5B91BB77B4E0025A204 /* tapResonant.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4469E5AC1BB77B4E0025A204 /* tapResonant.wav */; settings = {ASSET_TAGS = (); }; };
 		4469E5BA1BB77B4E0025A204 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E5AD1BB77B4E0025A204 /* Utilities.swift */; settings = {ASSET_TAGS = (); }; };
 		A4CEDB89218791C119FC8269 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052B0F1716833358A8618B27 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -58,7 +56,6 @@
 		4469E5911BB77B220025A204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4469E59D1BB77B450025A204 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4469E59E1BB77B450025A204 /* DeviceTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTypes.swift; sourceTree = "<group>"; };
-		4469E5A11BB77B4E0025A204 /* popDrip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = popDrip.wav; sourceTree = "<group>"; };
 		4469E5A21BB77B4E0025A204 /* SMGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMGame.swift; sourceTree = "<group>"; };
 		4469E5A31BB77B4E0025A204 /* SMGameEndViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMGameEndViewController.swift; sourceTree = "<group>"; };
 		4469E5A41BB77B4E0025A204 /* SMGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMGameScene.swift; sourceTree = "<group>"; };
@@ -69,7 +66,6 @@
 		4469E5A91BB77B4E0025A204 /* SMTileSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMTileSprite.swift; sourceTree = "<group>"; };
 		4469E5AA1BB77B4E0025A204 /* tapMellow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tapMellow.wav; sourceTree = "<group>"; };
 		4469E5AB1BB77B4E0025A204 /* tapMellowUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tapMellowUp.wav; sourceTree = "<group>"; };
-		4469E5AC1BB77B4E0025A204 /* tapResonant.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tapResonant.wav; sourceTree = "<group>"; };
 		4469E5AD1BB77B4E0025A204 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		B06D395A2FF0C9AEA0456C33 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C3A82799DBE0E296934440CF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,7 +131,6 @@
 		4469E56E1BB77B220025A204 /* Mnswpr */ = {
 			isa = PBXGroup;
 			children = (
-				4469E5A11BB77B4E0025A204 /* popDrip.wav */,
 				4469E5A21BB77B4E0025A204 /* SMGame.swift */,
 				4469E5A31BB77B4E0025A204 /* SMGameEndViewController.swift */,
 				4469E5A41BB77B4E0025A204 /* SMGameScene.swift */,
@@ -146,7 +141,6 @@
 				4469E5A91BB77B4E0025A204 /* SMTileSprite.swift */,
 				4469E5AA1BB77B4E0025A204 /* tapMellow.wav */,
 				4469E5AB1BB77B4E0025A204 /* tapMellowUp.wav */,
-				4469E5AC1BB77B4E0025A204 /* tapResonant.wav */,
 				4469E5AD1BB77B4E0025A204 /* Utilities.swift */,
 				4469E59D1BB77B450025A204 /* AppDelegate.swift */,
 				4469E59E1BB77B450025A204 /* DeviceTypes.swift */,
@@ -292,9 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4469E5B91BB77B4E0025A204 /* tapResonant.wav in Resources */,
 				4469E5B81BB77B4E0025A204 /* tapMellowUp.wav in Resources */,
-				4469E5AE1BB77B4E0025A204 /* popDrip.wav in Resources */,
 				4469E5B71BB77B4E0025A204 /* tapMellow.wav in Resources */,
 				4469E5771BB77B220025A204 /* Assets.xcassets in Resources */,
 			);

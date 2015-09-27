@@ -79,9 +79,9 @@ class SMGameScene: SKScene {
         }
         
         self.touchDownSound = try? AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: NSString(format: "%@/tapMellow.wav", NSBundle.mainBundle().resourcePath!) as String))
-        self.touchUpSound = try? AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: NSString(format: "%@/tapMellowUp.wav", NSBundle.mainBundle().resourcePath!) as String))
+        self.touchUpSound = try? AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: NSString(format: "%@/tapMellow.wav", NSBundle.mainBundle().resourcePath!) as String))
 
-        self.bombExplodeSound = try? AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: NSString(format: "%@/tapResonant.wav", NSBundle.mainBundle().resourcePath!) as String))
+        self.bombExplodeSound = try? AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: NSString(format: "%@/tapMellowUp.wav", NSBundle.mainBundle().resourcePath!) as String))
         
         // Setup Model
         let rows: Int = 8
