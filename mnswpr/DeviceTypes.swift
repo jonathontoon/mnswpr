@@ -29,6 +29,8 @@ public enum DeviceTypes : String {
     iPadAir2       = "iPad Air 2",
     iPhone6        = "iPhone 6",
     iPhone6plus    = "iPhone 6 Plus",
+    iPhone6S       = "iPhone 6S",
+    iPhone6Splus   = "iPhone 6S Plus",
     unrecognized   = "?unrecognized?"
 }
 
@@ -61,7 +63,9 @@ public extension UIDevice {
                 "iPad4,4"   : .iPadMini2,      // (2nd Generation iPad Mini - Wifi)
                 "iPad4,5"   : .iPadMini2,      // (2nd Generation iPad Mini - Cellular)
                 "iPhone7,1" : .iPhone6plus,    // All iPhone 6 Plus's
-                "iPhone7,2" : .iPhone6         // All iPhone 6's
+                "iPhone7,2" : .iPhone6,        // All iPhone 6's
+                "iPhone8,1" : .iPhone6S,       // All iPhone 6S's
+                "iPhone8,2" : .iPhone6Splus    // All iPhone 6S Plus's
             ]
             if let model = modelMap[String.fromCString(machinePtr)!] {
                 return model

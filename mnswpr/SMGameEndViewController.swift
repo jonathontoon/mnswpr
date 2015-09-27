@@ -133,14 +133,14 @@ class SMGameEndViewController: UIViewController {
         }, completion: nil)
     }
     
-    func stringFromTimeInterval(interval:NSTimeInterval) -> NSString {
+    func stringFromTimeInterval(interval:NSTimeInterval) -> NSString! {
         
-        let ti = NSInteger(interval)
+        let formatter = NSDateComponentsFormatter()
+            formatter.allowedUnits = [NSCalendarUnit.Minute, NSCalendarUnit.Second]
+            formatter.zeroFormattingBehavior = NSDateComponentsFormatterZeroFormattingBehavior.Pad
+        let string = formatter.stringFromTimeInterval(interval)
         
-        let seconds = ti % 60
-        let minutes = (ti / 60) % 60
-        
-        return NSString(format: "%0.2d:%0.2d", minutes, seconds)
+        return string
     }
     
     func startReset() {
@@ -152,7 +152,7 @@ class SMGameEndViewController: UIViewController {
             finished in
             
             if let delegate = self.delegate {
-                delegate.resetScene()
+                //delegate.resetScene()
             }
         
             self.dismissViewControllerAnimated(false, completion: nil)

@@ -68,11 +68,11 @@ class SMGameScene: SKScene {
             
             self.boardTextures = [SKTexture(imageNamed: "bombMaskSmall"), SKTexture(imageNamed: "flagMaskSmall")]
             
-        } else if deviceType.rawValue == "Simulator" {
+        } else if deviceType.rawValue == "iPhone 6" || deviceType.rawValue == "iPhone 6S" {
             
             self.boardTextures = [SKTexture(imageNamed: "bombMaskMedium"), SKTexture(imageNamed: "flagMaskMedium")]
             
-        } else if deviceType.rawValue == "iPhone 6 Plus" {
+        } else if deviceType.rawValue == "iPhone 6 Plus" || deviceType.rawValue == "iPhone 6S Plus" {
             
             self.boardTextures = [SKTexture(imageNamed: "bombMaskLarge"), SKTexture(imageNamed: "flagMaskLarge")]
             
@@ -132,7 +132,7 @@ class SMGameScene: SKScene {
         self.touchUpSound!.prepareToPlay()
         self.bombExplodeSound!.prepareToPlay()
         
-        self.gameTimer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: "updateTime", userInfo: nil, repeats: true)
+        self.gameTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "updateTime", userInfo: nil, repeats: true)
         
          NSNotificationCenter.defaultCenter().addObserver(self, selector: "pauseTimer:", name: UIApplicationWillResignActiveNotification, object: nil)
         
@@ -177,7 +177,7 @@ class SMGameScene: SKScene {
             self.boardSprites.append(boardSpriteRow)
         }
         
-        self.gameTimer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: "updateTime", userInfo: nil, repeats: true)
+        self.gameTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "updateTime", userInfo: nil, repeats: true)
         self.gameTime = 0
     }
 
@@ -345,7 +345,7 @@ class SMGameScene: SKScene {
         
         if self.gameTimer != nil {
             
-            self.gameTimer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: "updateTime", userInfo: nil, repeats: true)
+            self.gameTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "updateTime", userInfo: nil, repeats: true)
         }
     }
 }
