@@ -1,6 +1,6 @@
 //
-//  mnswprTests.swift
-//  mnswprTests
+//  MnswprTests.swift
+//  MnswprTests
 //
 //  Created by Jonathon Toon on 9/27/15.
 //  Copyright © 2015 Jonathon Toon. All rights reserved.
@@ -9,7 +9,7 @@
 import XCTest
 @testable import mnswpr
 
-class mnswprTests: XCTestCase {
+class MnswprTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

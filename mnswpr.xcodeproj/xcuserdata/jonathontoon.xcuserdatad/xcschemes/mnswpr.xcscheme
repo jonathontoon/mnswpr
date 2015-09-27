@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4469E56B1BB77B220025A204"
-               BuildableName = "mnswpr.app"
-               BlueprintName = "mnswpr"
-               ReferencedContainer = "container:mnswpr.xcodeproj">
+               BuildableName = "Mnswpr.app"
+               BlueprintName = "Mnswpr"
+               ReferencedContainer = "container:Mnswpr.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4469E57F1BB77B220025A204"
-               BuildableName = "mnswprTests.xctest"
-               BlueprintName = "mnswprTests"
-               ReferencedContainer = "container:mnswpr.xcodeproj">
+               BuildableName = "Mnswpr.xctest"
+               BlueprintName = "MnswprTests"
+               ReferencedContainer = "container:Mnswpr.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4469E58A1BB77B220025A204"
-               BuildableName = "mnswprUITests.xctest"
-               BlueprintName = "mnswprUITests"
-               ReferencedContainer = "container:mnswpr.xcodeproj">
+               BuildableName = "Mnswpr.xctest"
+               BlueprintName = "MnswprUITests"
+               ReferencedContainer = "container:Mnswpr.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4469E56B1BB77B220025A204"
-            BuildableName = "mnswpr.app"
-            BlueprintName = "mnswpr"
-            ReferencedContainer = "container:mnswpr.xcodeproj">
+            BuildableName = "Mnswpr.app"
+            BlueprintName = "Mnswpr"
+            ReferencedContainer = "container:Mnswpr.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4469E56B1BB77B220025A204"
-            BuildableName = "mnswpr.app"
-            BlueprintName = "mnswpr"
-            ReferencedContainer = "container:mnswpr.xcodeproj">
+            BuildableName = "Mnswpr.app"
+            BlueprintName = "Mnswpr"
+            ReferencedContainer = "container:Mnswpr.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4469E56B1BB77B220025A204"
-            BuildableName = "mnswpr.app"
-            BlueprintName = "mnswpr"
-            ReferencedContainer = "container:mnswpr.xcodeproj">
+            BuildableName = "Mnswpr.app"
+            BlueprintName = "Mnswpr"
+            ReferencedContainer = "container:Mnswpr.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
