@@ -106,6 +106,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "Mnswpr"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
