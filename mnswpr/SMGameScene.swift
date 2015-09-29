@@ -68,7 +68,7 @@ class SMGameScene: SKScene {
             
             self.boardTextures = [SKTexture(imageNamed: "bombMaskSmall"), SKTexture(imageNamed: "flagMaskSmall")]
             
-        } else if deviceType.rawValue == "iPhone 6" || deviceType.rawValue == "iPhone 6S" {
+        } else if deviceType.rawValue == "Simulator" || deviceType.rawValue == "iPhone 6S" {
             
             self.boardTextures = [SKTexture(imageNamed: "bombMaskMedium"), SKTexture(imageNamed: "flagMaskMedium")]
             

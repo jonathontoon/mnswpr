@@ -40,7 +40,7 @@ class SMThemeController {
                 startGradientColor: "#8E54E9",
                 endGradientColor: "#4776E6",
                 bombColor: "#FFFFFF",
-                backgroundColor: "#181A25"
+                backgroundColor: "#181A27"
             ),
             "Royal": (
                 startGradientColor: "#7b4397",

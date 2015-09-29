@@ -23,19 +23,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C3EFE1721E7292B37ECF58CBA4D6B680 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5256D377993AC10F7C90417B078C4010;
-			remoteInfo = UIColor_Hex_Swift;
-		};
-		D78D47517F7FA3D65DCC2A8279544519 /* PBXContainerItemProxy */ = {
+		842B038449BF079BA5415F284B25211D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B7D9C0FB2A26FEA9B70E1D597C597CEB;
 			remoteInfo = UIDeviceUtil;
+		};
+		EF5BC87367382583365660ED3B093D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5256D377993AC10F7C90417B078C4010;
+			remoteInfo = UIColor_Hex_Swift;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -268,8 +268,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				0C7D310E081932BDA5C659B41F51B8A1 /* PBXTargetDependency */,
-				AAB51F7CE47AB0B9E474B295D944D6F1 /* PBXTargetDependency */,
+				43AC834868807DBD105316D8E884F305 /* PBXTargetDependency */,
+				39CA8AA57179F5F4E9F1285922387B47 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
@@ -368,17 +368,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0C7D310E081932BDA5C659B41F51B8A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UIColor_Hex_Swift;
-			target = 5256D377993AC10F7C90417B078C4010 /* UIColor_Hex_Swift */;
-			targetProxy = C3EFE1721E7292B37ECF58CBA4D6B680 /* PBXContainerItemProxy */;
-		};
-		AAB51F7CE47AB0B9E474B295D944D6F1 /* PBXTargetDependency */ = {
+		39CA8AA57179F5F4E9F1285922387B47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UIDeviceUtil;
 			target = B7D9C0FB2A26FEA9B70E1D597C597CEB /* UIDeviceUtil */;
-			targetProxy = D78D47517F7FA3D65DCC2A8279544519 /* PBXContainerItemProxy */;
+			targetProxy = 842B038449BF079BA5415F284B25211D /* PBXContainerItemProxy */;
+		};
+		43AC834868807DBD105316D8E884F305 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIColor_Hex_Swift;
+			target = 5256D377993AC10F7C90417B078C4010 /* UIColor_Hex_Swift */;
+			targetProxy = EF5BC87367382583365660ED3B093D6E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

@@ -7,87 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4469E5771BB77B220025A204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4469E5761BB77B220025A204 /* Assets.xcassets */; };
-		4469E5851BB77B220025A204 /* mnswprTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E5841BB77B220025A204 /* mnswprTests.swift */; };
-		4469E5901BB77B220025A204 /* MnswprUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E58F1BB77B220025A204 /* MnswprUITests.swift */; };
-		4469E59F1BB77B450025A204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E59D1BB77B450025A204 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
-		4469E5A01BB77B450025A204 /* DeviceTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E59E1BB77B450025A204 /* DeviceTypes.swift */; settings = {ASSET_TAGS = (); }; };
-		4469E5AF1BB77B4E0025A204 /* SMGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E5A21BB77B4E0025A204 /* SMGame.swift */; settings = {ASSET_TAGS = (); }; };
-		4469E5B01BB77B4E0025A204 /* SMGameEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E5A31BB77B4E0025A204 /* SMGameEndViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		4469E5B11BB77B4E0025A204 /* SMGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E5A41BB77B4E0025A204 /* SMGameScene.swift */; settings = {ASSET_TAGS = (); }; };
-		4469E5B21BB77B4E0025A204 /* SMGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E5A51BB77B4E0025A204 /* SMGameViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		4469E5B31BB77B4E0025A204 /* SMThemeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E5A61BB77B4E0025A204 /* SMThemeController.swift */; settings = {ASSET_TAGS = (); }; };
-		4469E5B41BB77B4E0025A204 /* SMThemeGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E5A71BB77B4E0025A204 /* SMThemeGradient.swift */; settings = {ASSET_TAGS = (); }; };
-		4469E5B51BB77B4E0025A204 /* SMTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E5A81BB77B4E0025A204 /* SMTile.swift */; settings = {ASSET_TAGS = (); }; };
-		4469E5B61BB77B4E0025A204 /* SMTileSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E5A91BB77B4E0025A204 /* SMTileSprite.swift */; settings = {ASSET_TAGS = (); }; };
-		4469E5B71BB77B4E0025A204 /* tapMellow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4469E5AA1BB77B4E0025A204 /* tapMellow.wav */; settings = {ASSET_TAGS = (); }; };
-		4469E5B81BB77B4E0025A204 /* tapMellowUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4469E5AB1BB77B4E0025A204 /* tapMellowUp.wav */; settings = {ASSET_TAGS = (); }; };
-		4469E5BA1BB77B4E0025A204 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E5AD1BB77B4E0025A204 /* Utilities.swift */; settings = {ASSET_TAGS = (); }; };
-		A4CEDB89218791C119FC8269 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052B0F1716833358A8618B27 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1D0B3D1441721D5078DDA659 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72206BDBE62968111F507D67 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4496C57A1BBAE8660086A20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4496C5791BBAE8660086A20C /* Assets.xcassets */; };
+		4496C5881BBAE8670086A20C /* MnswprTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5871BBAE8670086A20C /* MnswprTests.swift */; };
+		4496C5931BBAE8670086A20C /* MnswprUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5921BBAE8670086A20C /* MnswprUITests.swift */; };
+		4496C5A11BBAE8710086A20C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A01BBAE8710086A20C /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		4496C5AC1BBAE8800086A20C /* SMGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A21BBAE8800086A20C /* SMGame.swift */; settings = {ASSET_TAGS = (); }; };
+		4496C5AD1BBAE8800086A20C /* SMGameEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A31BBAE8800086A20C /* SMGameEndViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4496C5AE1BBAE8800086A20C /* SMGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A41BBAE8800086A20C /* SMGameScene.swift */; settings = {ASSET_TAGS = (); }; };
+		4496C5AF1BBAE8800086A20C /* SMGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A51BBAE8800086A20C /* SMGameViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4496C5B01BBAE8800086A20C /* SMThemeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A61BBAE8800086A20C /* SMThemeController.swift */; settings = {ASSET_TAGS = (); }; };
+		4496C5B11BBAE8800086A20C /* SMThemeGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A71BBAE8800086A20C /* SMThemeGradient.swift */; settings = {ASSET_TAGS = (); }; };
+		4496C5B21BBAE8800086A20C /* SMTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A81BBAE8800086A20C /* SMTile.swift */; settings = {ASSET_TAGS = (); }; };
+		4496C5B31BBAE8800086A20C /* SMTileSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A91BBAE8800086A20C /* SMTileSprite.swift */; settings = {ASSET_TAGS = (); }; };
+		4496C5B41BBAE8800086A20C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5AA1BBAE8800086A20C /* Utilities.swift */; settings = {ASSET_TAGS = (); }; };
+		4496C5B51BBAE8800086A20C /* DeviceTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5AB1BBAE8800086A20C /* DeviceTypes.swift */; settings = {ASSET_TAGS = (); }; };
+		4496C5B81BBAE8870086A20C /* tapMellow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4496C5B61BBAE8870086A20C /* tapMellow.wav */; settings = {ASSET_TAGS = (); }; };
+		4496C5B91BBAE8870086A20C /* tapMellowUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4496C5B71BBAE8870086A20C /* tapMellowUp.wav */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4469E5811BB77B220025A204 /* PBXContainerItemProxy */ = {
+		4496C5841BBAE8670086A20C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4469E5641BB77B220025A204 /* Project object */;
+			containerPortal = 4496C5671BBAE8660086A20C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4469E56B1BB77B220025A204;
-			remoteInfo = mnswpr;
+			remoteGlobalIDString = 4496C56E1BBAE8660086A20C;
+			remoteInfo = Mnswpr;
 		};
-		4469E58C1BB77B220025A204 /* PBXContainerItemProxy */ = {
+		4496C58F1BBAE8670086A20C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4469E5641BB77B220025A204 /* Project object */;
+			containerPortal = 4496C5671BBAE8660086A20C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4469E56B1BB77B220025A204;
-			remoteInfo = mnswpr;
+			remoteGlobalIDString = 4496C56E1BBAE8660086A20C;
+			remoteInfo = Mnswpr;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		052B0F1716833358A8618B27 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4469E56C1BB77B220025A204 /* Mnswpr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mnswpr.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4469E5761BB77B220025A204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4469E57B1BB77B220025A204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4469E5801BB77B220025A204 /* Mnswpr.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mnswpr.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4469E5841BB77B220025A204 /* mnswprTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mnswprTests.swift; sourceTree = "<group>"; };
-		4469E5861BB77B220025A204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4469E58B1BB77B220025A204 /* Mnswpr.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mnswpr.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4469E58F1BB77B220025A204 /* MnswprUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnswprUITests.swift; sourceTree = "<group>"; };
-		4469E5911BB77B220025A204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4469E59D1BB77B450025A204 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4469E59E1BB77B450025A204 /* DeviceTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTypes.swift; sourceTree = "<group>"; };
-		4469E5A21BB77B4E0025A204 /* SMGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMGame.swift; sourceTree = "<group>"; };
-		4469E5A31BB77B4E0025A204 /* SMGameEndViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMGameEndViewController.swift; sourceTree = "<group>"; };
-		4469E5A41BB77B4E0025A204 /* SMGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMGameScene.swift; sourceTree = "<group>"; };
-		4469E5A51BB77B4E0025A204 /* SMGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMGameViewController.swift; sourceTree = "<group>"; };
-		4469E5A61BB77B4E0025A204 /* SMThemeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMThemeController.swift; sourceTree = "<group>"; };
-		4469E5A71BB77B4E0025A204 /* SMThemeGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMThemeGradient.swift; sourceTree = "<group>"; };
-		4469E5A81BB77B4E0025A204 /* SMTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMTile.swift; sourceTree = "<group>"; };
-		4469E5A91BB77B4E0025A204 /* SMTileSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMTileSprite.swift; sourceTree = "<group>"; };
-		4469E5AA1BB77B4E0025A204 /* tapMellow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tapMellow.wav; sourceTree = "<group>"; };
-		4469E5AB1BB77B4E0025A204 /* tapMellowUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tapMellowUp.wav; sourceTree = "<group>"; };
-		4469E5AD1BB77B4E0025A204 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		B06D395A2FF0C9AEA0456C33 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		C3A82799DBE0E296934440CF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4496C56F1BBAE8660086A20C /* Mnswpr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mnswpr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4496C5791BBAE8660086A20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4496C57E1BBAE8660086A20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4496C5831BBAE8670086A20C /* MnswprTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MnswprTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4496C5871BBAE8670086A20C /* MnswprTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnswprTests.swift; sourceTree = "<group>"; };
+		4496C5891BBAE8670086A20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4496C58E1BBAE8670086A20C /* MnswprUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MnswprUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4496C5921BBAE8670086A20C /* MnswprUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnswprUITests.swift; sourceTree = "<group>"; };
+		4496C5941BBAE8670086A20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4496C5A01BBAE8710086A20C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4496C5A21BBAE8800086A20C /* SMGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMGame.swift; sourceTree = "<group>"; };
+		4496C5A31BBAE8800086A20C /* SMGameEndViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMGameEndViewController.swift; sourceTree = "<group>"; };
+		4496C5A41BBAE8800086A20C /* SMGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMGameScene.swift; sourceTree = "<group>"; };
+		4496C5A51BBAE8800086A20C /* SMGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMGameViewController.swift; sourceTree = "<group>"; };
+		4496C5A61BBAE8800086A20C /* SMThemeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMThemeController.swift; sourceTree = "<group>"; };
+		4496C5A71BBAE8800086A20C /* SMThemeGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMThemeGradient.swift; sourceTree = "<group>"; };
+		4496C5A81BBAE8800086A20C /* SMTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMTile.swift; sourceTree = "<group>"; };
+		4496C5A91BBAE8800086A20C /* SMTileSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMTileSprite.swift; sourceTree = "<group>"; };
+		4496C5AA1BBAE8800086A20C /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		4496C5AB1BBAE8800086A20C /* DeviceTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTypes.swift; sourceTree = "<group>"; };
+		4496C5B61BBAE8870086A20C /* tapMellow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tapMellow.wav; sourceTree = "<group>"; };
+		4496C5B71BBAE8870086A20C /* tapMellowUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tapMellowUp.wav; sourceTree = "<group>"; };
+		55186913DA297AB1628EE8AA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		72206BDBE62968111F507D67 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB06717904A5F83AD2D3D1BF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4469E5691BB77B220025A204 /* Frameworks */ = {
+		4496C56C1BBAE8660086A20C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4CEDB89218791C119FC8269 /* Pods.framework in Frameworks */,
+				1D0B3D1441721D5078DDA659 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4469E57D1BB77B220025A204 /* Frameworks */ = {
+		4496C5801BBAE8670086A20C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4469E5881BB77B220025A204 /* Frameworks */ = {
+		4496C58B1BBAE8670086A20C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -97,84 +97,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05E3DB96264C51A64B01E727 /* Pods */ = {
+		4496C5661BBAE8660086A20C = {
 			isa = PBXGroup;
 			children = (
-				C3A82799DBE0E296934440CF /* Pods.debug.xcconfig */,
-				B06D395A2FF0C9AEA0456C33 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		4469E5631BB77B220025A204 = {
-			isa = PBXGroup;
-			children = (
-				4469E56E1BB77B220025A204 /* Mnswpr */,
-				4469E5831BB77B220025A204 /* MnswprTests */,
-				4469E58E1BB77B220025A204 /* MnswprUITests */,
-				4469E56D1BB77B220025A204 /* Products */,
-				05E3DB96264C51A64B01E727 /* Pods */,
-				8A66F85B23FDC89FCBAACA65 /* Frameworks */,
+				4496C5711BBAE8660086A20C /* Mnswpr */,
+				4496C5861BBAE8670086A20C /* MnswprTests */,
+				4496C5911BBAE8670086A20C /* MnswprUITests */,
+				4496C5701BBAE8660086A20C /* Products */,
+				72AD11A8EA85CC8B6C7CA0BB /* Pods */,
+				A602C32C851C58694A42FC5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		4469E56D1BB77B220025A204 /* Products */ = {
+		4496C5701BBAE8660086A20C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4469E56C1BB77B220025A204 /* Mnswpr.app */,
-				4469E5801BB77B220025A204 /* Mnswpr.xctest */,
-				4469E58B1BB77B220025A204 /* Mnswpr.xctest */,
+				4496C56F1BBAE8660086A20C /* Mnswpr.app */,
+				4496C5831BBAE8670086A20C /* MnswprTests.xctest */,
+				4496C58E1BBAE8670086A20C /* MnswprUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4469E56E1BB77B220025A204 /* Mnswpr */ = {
+		4496C5711BBAE8660086A20C /* Mnswpr */ = {
 			isa = PBXGroup;
 			children = (
-				4469E5A21BB77B4E0025A204 /* SMGame.swift */,
-				4469E5A31BB77B4E0025A204 /* SMGameEndViewController.swift */,
-				4469E5A41BB77B4E0025A204 /* SMGameScene.swift */,
-				4469E5A51BB77B4E0025A204 /* SMGameViewController.swift */,
-				4469E5A61BB77B4E0025A204 /* SMThemeController.swift */,
-				4469E5A71BB77B4E0025A204 /* SMThemeGradient.swift */,
-				4469E5A81BB77B4E0025A204 /* SMTile.swift */,
-				4469E5A91BB77B4E0025A204 /* SMTileSprite.swift */,
-				4469E5AA1BB77B4E0025A204 /* tapMellow.wav */,
-				4469E5AB1BB77B4E0025A204 /* tapMellowUp.wav */,
-				4469E5AD1BB77B4E0025A204 /* Utilities.swift */,
-				4469E59D1BB77B450025A204 /* AppDelegate.swift */,
-				4469E59E1BB77B450025A204 /* DeviceTypes.swift */,
-				4469E5761BB77B220025A204 /* Assets.xcassets */,
-				4469E57B1BB77B220025A204 /* Info.plist */,
+				4496C5A01BBAE8710086A20C /* AppDelegate.swift */,
+				4496C5A21BBAE8800086A20C /* SMGame.swift */,
+				4496C5A31BBAE8800086A20C /* SMGameEndViewController.swift */,
+				4496C5A41BBAE8800086A20C /* SMGameScene.swift */,
+				4496C5A51BBAE8800086A20C /* SMGameViewController.swift */,
+				4496C5A61BBAE8800086A20C /* SMThemeController.swift */,
+				4496C5A71BBAE8800086A20C /* SMThemeGradient.swift */,
+				4496C5A81BBAE8800086A20C /* SMTile.swift */,
+				4496C5A91BBAE8800086A20C /* SMTileSprite.swift */,
+				4496C5AA1BBAE8800086A20C /* Utilities.swift */,
+				4496C5AB1BBAE8800086A20C /* DeviceTypes.swift */,
+				4496C5B61BBAE8870086A20C /* tapMellow.wav */,
+				4496C5B71BBAE8870086A20C /* tapMellowUp.wav */,
+				4496C5791BBAE8660086A20C /* Assets.xcassets */,
+				4496C57E1BBAE8660086A20C /* Info.plist */,
 			);
-			name = Mnswpr;
-			path = mnswpr;
+			path = Mnswpr;
 			sourceTree = "<group>";
 		};
-		4469E5831BB77B220025A204 /* MnswprTests */ = {
+		4496C5861BBAE8670086A20C /* MnswprTests */ = {
 			isa = PBXGroup;
 			children = (
-				4469E5841BB77B220025A204 /* mnswprTests.swift */,
-				4469E5861BB77B220025A204 /* Info.plist */,
+				4496C5871BBAE8670086A20C /* MnswprTests.swift */,
+				4496C5891BBAE8670086A20C /* Info.plist */,
 			);
-			name = MnswprTests;
-			path = mnswprTests;
+			path = MnswprTests;
 			sourceTree = "<group>";
 		};
-		4469E58E1BB77B220025A204 /* MnswprUITests */ = {
+		4496C5911BBAE8670086A20C /* MnswprUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4469E58F1BB77B220025A204 /* MnswprUITests.swift */,
-				4469E5911BB77B220025A204 /* Info.plist */,
+				4496C5921BBAE8670086A20C /* MnswprUITests.swift */,
+				4496C5941BBAE8670086A20C /* Info.plist */,
 			);
-			name = MnswprUITests;
-			path = mnswprUITests;
+			path = MnswprUITests;
 			sourceTree = "<group>";
 		};
-		8A66F85B23FDC89FCBAACA65 /* Frameworks */ = {
+		72AD11A8EA85CC8B6C7CA0BB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				052B0F1716833358A8618B27 /* Pods.framework */,
+				DB06717904A5F83AD2D3D1BF /* Pods.debug.xcconfig */,
+				55186913DA297AB1628EE8AA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A602C32C851C58694A42FC5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72206BDBE62968111F507D67 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,86 +179,85 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4469E56B1BB77B220025A204 /* Mnswpr */ = {
+		4496C56E1BBAE8660086A20C /* Mnswpr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4469E5941BB77B220025A204 /* Build configuration list for PBXNativeTarget "Mnswpr" */;
+			buildConfigurationList = 4496C5971BBAE8670086A20C /* Build configuration list for PBXNativeTarget "Mnswpr" */;
 			buildPhases = (
-				29DB05DD5A09773A3DF47AD3 /* Check Pods Manifest.lock */,
-				4469E5681BB77B220025A204 /* Sources */,
-				4469E5691BB77B220025A204 /* Frameworks */,
-				4469E56A1BB77B220025A204 /* Resources */,
-				26ED553205565F39BED419CF /* Embed Pods Frameworks */,
-				0C9BE6F580D441BA904B2CFC /* Copy Pods Resources */,
+				562575C8729C80E186663BBB /* Check Pods Manifest.lock */,
+				4496C56B1BBAE8660086A20C /* Sources */,
+				4496C56C1BBAE8660086A20C /* Frameworks */,
+				4496C56D1BBAE8660086A20C /* Resources */,
+				E71B444E87072114F1EAFBCA /* Embed Pods Frameworks */,
+				4AA2A0A3E6CA68B00B312D54 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Mnswpr;
-			productName = mnswpr;
-			productReference = 4469E56C1BB77B220025A204 /* Mnswpr.app */;
+			productName = Mnswpr;
+			productReference = 4496C56F1BBAE8660086A20C /* Mnswpr.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4469E57F1BB77B220025A204 /* MnswprTests */ = {
+		4496C5821BBAE8670086A20C /* MnswprTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4469E5971BB77B220025A204 /* Build configuration list for PBXNativeTarget "MnswprTests" */;
+			buildConfigurationList = 4496C59A1BBAE8670086A20C /* Build configuration list for PBXNativeTarget "MnswprTests" */;
 			buildPhases = (
-				4469E57C1BB77B220025A204 /* Sources */,
-				4469E57D1BB77B220025A204 /* Frameworks */,
-				4469E57E1BB77B220025A204 /* Resources */,
+				4496C57F1BBAE8670086A20C /* Sources */,
+				4496C5801BBAE8670086A20C /* Frameworks */,
+				4496C5811BBAE8670086A20C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4469E5821BB77B220025A204 /* PBXTargetDependency */,
+				4496C5851BBAE8670086A20C /* PBXTargetDependency */,
 			);
 			name = MnswprTests;
-			productName = mnswprTests;
-			productReference = 4469E5801BB77B220025A204 /* Mnswpr.xctest */;
+			productName = MnswprTests;
+			productReference = 4496C5831BBAE8670086A20C /* MnswprTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4469E58A1BB77B220025A204 /* MnswprUITests */ = {
+		4496C58D1BBAE8670086A20C /* MnswprUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4469E59A1BB77B220025A204 /* Build configuration list for PBXNativeTarget "MnswprUITests" */;
+			buildConfigurationList = 4496C59D1BBAE8670086A20C /* Build configuration list for PBXNativeTarget "MnswprUITests" */;
 			buildPhases = (
-				4469E5871BB77B220025A204 /* Sources */,
-				4469E5881BB77B220025A204 /* Frameworks */,
-				4469E5891BB77B220025A204 /* Resources */,
+				4496C58A1BBAE8670086A20C /* Sources */,
+				4496C58B1BBAE8670086A20C /* Frameworks */,
+				4496C58C1BBAE8670086A20C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4469E58D1BB77B220025A204 /* PBXTargetDependency */,
+				4496C5901BBAE8670086A20C /* PBXTargetDependency */,
 			);
 			name = MnswprUITests;
-			productName = mnswprUITests;
-			productReference = 4469E58B1BB77B220025A204 /* Mnswpr.xctest */;
+			productName = MnswprUITests;
+			productReference = 4496C58E1BBAE8670086A20C /* MnswprUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4469E5641BB77B220025A204 /* Project object */ = {
+		4496C5671BBAE8660086A20C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Jonathon Toon";
 				TargetAttributes = {
-					4469E56B1BB77B220025A204 = {
+					4496C56E1BBAE8660086A20C = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 9WC975BSP9;
 					};
-					4469E57F1BB77B220025A204 = {
+					4496C5821BBAE8670086A20C = {
 						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 4469E56B1BB77B220025A204;
+						TestTargetID = 4496C56E1BBAE8660086A20C;
 					};
-					4469E58A1BB77B220025A204 = {
+					4496C58D1BBAE8670086A20C = {
 						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 4469E56B1BB77B220025A204;
+						TestTargetID = 4496C56E1BBAE8660086A20C;
 					};
 				};
 			};
-			buildConfigurationList = 4469E5671BB77B220025A204 /* Build configuration list for PBXProject "Mnswpr" */;
+			buildConfigurationList = 4496C56A1BBAE8660086A20C /* Build configuration list for PBXProject "Mnswpr" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -269,37 +265,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 4469E5631BB77B220025A204;
-			productRefGroup = 4469E56D1BB77B220025A204 /* Products */;
+			mainGroup = 4496C5661BBAE8660086A20C;
+			productRefGroup = 4496C5701BBAE8660086A20C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4469E56B1BB77B220025A204 /* Mnswpr */,
-				4469E57F1BB77B220025A204 /* MnswprTests */,
-				4469E58A1BB77B220025A204 /* MnswprUITests */,
+				4496C56E1BBAE8660086A20C /* Mnswpr */,
+				4496C5821BBAE8670086A20C /* MnswprTests */,
+				4496C58D1BBAE8670086A20C /* MnswprUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4469E56A1BB77B220025A204 /* Resources */ = {
+		4496C56D1BBAE8660086A20C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4469E5B81BB77B4E0025A204 /* tapMellowUp.wav in Resources */,
-				4469E5B71BB77B4E0025A204 /* tapMellow.wav in Resources */,
-				4469E5771BB77B220025A204 /* Assets.xcassets in Resources */,
+				4496C5B91BBAE8870086A20C /* tapMellowUp.wav in Resources */,
+				4496C57A1BBAE8660086A20C /* Assets.xcassets in Resources */,
+				4496C5B81BBAE8870086A20C /* tapMellow.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4469E57E1BB77B220025A204 /* Resources */ = {
+		4496C5811BBAE8670086A20C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4469E5891BB77B220025A204 /* Resources */ = {
+		4496C58C1BBAE8670086A20C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -309,7 +305,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C9BE6F580D441BA904B2CFC /* Copy Pods Resources */ = {
+		4AA2A0A3E6CA68B00B312D54 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,22 +320,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		26ED553205565F39BED419CF /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		29DB05DD5A09773A3DF47AD3 /* Check Pods Manifest.lock */ = {
+		562575C8729C80E186663BBB /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -354,60 +335,75 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		E71B444E87072114F1EAFBCA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4469E5681BB77B220025A204 /* Sources */ = {
+		4496C56B1BBAE8660086A20C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4469E5B31BB77B4E0025A204 /* SMThemeController.swift in Sources */,
-				4469E5B41BB77B4E0025A204 /* SMThemeGradient.swift in Sources */,
-				4469E5BA1BB77B4E0025A204 /* Utilities.swift in Sources */,
-				4469E5B21BB77B4E0025A204 /* SMGameViewController.swift in Sources */,
-				4469E5B01BB77B4E0025A204 /* SMGameEndViewController.swift in Sources */,
-				4469E5B61BB77B4E0025A204 /* SMTileSprite.swift in Sources */,
-				4469E5AF1BB77B4E0025A204 /* SMGame.swift in Sources */,
-				4469E59F1BB77B450025A204 /* AppDelegate.swift in Sources */,
-				4469E5B11BB77B4E0025A204 /* SMGameScene.swift in Sources */,
-				4469E5B51BB77B4E0025A204 /* SMTile.swift in Sources */,
-				4469E5A01BB77B450025A204 /* DeviceTypes.swift in Sources */,
+				4496C5B11BBAE8800086A20C /* SMThemeGradient.swift in Sources */,
+				4496C5AE1BBAE8800086A20C /* SMGameScene.swift in Sources */,
+				4496C5AD1BBAE8800086A20C /* SMGameEndViewController.swift in Sources */,
+				4496C5A11BBAE8710086A20C /* AppDelegate.swift in Sources */,
+				4496C5B01BBAE8800086A20C /* SMThemeController.swift in Sources */,
+				4496C5B51BBAE8800086A20C /* DeviceTypes.swift in Sources */,
+				4496C5B21BBAE8800086A20C /* SMTile.swift in Sources */,
+				4496C5AC1BBAE8800086A20C /* SMGame.swift in Sources */,
+				4496C5AF1BBAE8800086A20C /* SMGameViewController.swift in Sources */,
+				4496C5B41BBAE8800086A20C /* Utilities.swift in Sources */,
+				4496C5B31BBAE8800086A20C /* SMTileSprite.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4469E57C1BB77B220025A204 /* Sources */ = {
+		4496C57F1BBAE8670086A20C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4469E5851BB77B220025A204 /* mnswprTests.swift in Sources */,
+				4496C5881BBAE8670086A20C /* MnswprTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4469E5871BB77B220025A204 /* Sources */ = {
+		4496C58A1BBAE8670086A20C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4469E5901BB77B220025A204 /* MnswprUITests.swift in Sources */,
+				4496C5931BBAE8670086A20C /* MnswprUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4469E5821BB77B220025A204 /* PBXTargetDependency */ = {
+		4496C5851BBAE8670086A20C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4469E56B1BB77B220025A204 /* Mnswpr */;
-			targetProxy = 4469E5811BB77B220025A204 /* PBXContainerItemProxy */;
+			target = 4496C56E1BBAE8660086A20C /* Mnswpr */;
+			targetProxy = 4496C5841BBAE8670086A20C /* PBXContainerItemProxy */;
 		};
-		4469E58D1BB77B220025A204 /* PBXTargetDependency */ = {
+		4496C5901BBAE8670086A20C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4469E56B1BB77B220025A204 /* Mnswpr */;
-			targetProxy = 4469E58C1BB77B220025A204 /* PBXContainerItemProxy */;
+			target = 4496C56E1BBAE8660086A20C /* Mnswpr */;
+			targetProxy = 4496C58F1BBAE8670086A20C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4469E5921BB77B220025A204 /* Debug */ = {
+		4496C5951BBAE8670086A20C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -451,7 +447,7 @@
 			};
 			name = Debug;
 		};
-		4469E5931BB77B220025A204 /* Release */ = {
+		4496C5961BBAE8670086A20C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -488,82 +484,76 @@
 			};
 			name = Release;
 		};
-		4469E5951BB77B220025A204 /* Debug */ = {
+		4496C5981BBAE8670086A20C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3A82799DBE0E296934440CF /* Pods.debug.xcconfig */;
+			baseConfigurationReference = DB06717904A5F83AD2D3D1BF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Mnswpr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jonathon-Toon.Mnswpr";
-				PRODUCT_NAME = Mnswpr;
-				PROVISIONING_PROFILE = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		4469E5961BB77B220025A204 /* Release */ = {
+		4496C5991BBAE8670086A20C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B06D395A2FF0C9AEA0456C33 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 55186913DA297AB1628EE8AA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Mnswpr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jonathon-Toon.Mnswpr";
-				PRODUCT_NAME = Mnswpr;
-				PROVISIONING_PROFILE = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		4469E5981BB77B220025A204 /* Debug */ = {
+		4496C59B1BBAE8670086A20C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MnswprTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Jonathon-Toon.mnswprTests";
-				PRODUCT_NAME = Mnswpr;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathon-Toon.MnswprTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mnswpr.app/Mnswpr";
 			};
 			name = Debug;
 		};
-		4469E5991BB77B220025A204 /* Release */ = {
+		4496C59C1BBAE8670086A20C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MnswprTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Jonathon-Toon.mnswprTests";
-				PRODUCT_NAME = Mnswpr;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathon-Toon.MnswprTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mnswpr.app/Mnswpr";
 			};
 			name = Release;
 		};
-		4469E59B1BB77B220025A204 /* Debug */ = {
+		4496C59E1BBAE8670086A20C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = MnswprUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Jonathon-Toon.mnswprUITests";
-				PRODUCT_NAME = Mnswpr;
-				TEST_TARGET_NAME = mnswpr;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathon-Toon.MnswprUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mnswpr;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
 		};
-		4469E59C1BB77B220025A204 /* Release */ = {
+		4496C59F1BBAE8670086A20C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = MnswprUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Jonathon-Toon.mnswprUITests";
-				PRODUCT_NAME = Mnswpr;
-				TEST_TARGET_NAME = mnswpr;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathon-Toon.MnswprUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mnswpr;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
@@ -571,43 +561,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4469E5671BB77B220025A204 /* Build configuration list for PBXProject "Mnswpr" */ = {
+		4496C56A1BBAE8660086A20C /* Build configuration list for PBXProject "Mnswpr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4469E5921BB77B220025A204 /* Debug */,
-				4469E5931BB77B220025A204 /* Release */,
+				4496C5951BBAE8670086A20C /* Debug */,
+				4496C5961BBAE8670086A20C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4469E5941BB77B220025A204 /* Build configuration list for PBXNativeTarget "Mnswpr" */ = {
+		4496C5971BBAE8670086A20C /* Build configuration list for PBXNativeTarget "Mnswpr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4469E5951BB77B220025A204 /* Debug */,
-				4469E5961BB77B220025A204 /* Release */,
+				4496C5981BBAE8670086A20C /* Debug */,
+				4496C5991BBAE8670086A20C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4469E5971BB77B220025A204 /* Build configuration list for PBXNativeTarget "MnswprTests" */ = {
+		4496C59A1BBAE8670086A20C /* Build configuration list for PBXNativeTarget "MnswprTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4469E5981BB77B220025A204 /* Debug */,
-				4469E5991BB77B220025A204 /* Release */,
+				4496C59B1BBAE8670086A20C /* Debug */,
+				4496C59C1BBAE8670086A20C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4469E59A1BB77B220025A204 /* Build configuration list for PBXNativeTarget "MnswprUITests" */ = {
+		4496C59D1BBAE8670086A20C /* Build configuration list for PBXNativeTarget "MnswprUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4469E59B1BB77B220025A204 /* Debug */,
-				4469E59C1BB77B220025A204 /* Release */,
+				4496C59E1BBAE8670086A20C /* Debug */,
+				4496C59F1BBAE8670086A20C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4469E5641BB77B220025A204 /* Project object */;
+	rootObject = 4496C5671BBAE8660086A20C /* Project object */;
 }

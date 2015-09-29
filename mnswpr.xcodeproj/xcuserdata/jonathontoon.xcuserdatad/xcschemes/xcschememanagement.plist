@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>mnswpr.xcscheme</key>
+		<key>Mnswpr.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4469E56B1BB77B220025A204</key>
+		<key>4496C56E1BBAE8660086A20C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4469E57F1BB77B220025A204</key>
+		<key>4496C5821BBAE8670086A20C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4469E58A1BB77B220025A204</key>
+		<key>4496C58D1BBAE8670086A20C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

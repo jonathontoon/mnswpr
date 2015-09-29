@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4469E56B1BB77B220025A204"
+               BlueprintIdentifier = "4496C56E1BBAE8660086A20C"
                BuildableName = "Mnswpr.app"
                BlueprintName = "Mnswpr"
                ReferencedContainer = "container:Mnswpr.xcodeproj">
@@ -32,8 +32,8 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4469E57F1BB77B220025A204"
-               BuildableName = "Mnswpr.xctest"
+               BlueprintIdentifier = "4496C5821BBAE8670086A20C"
+               BuildableName = "MnswprTests.xctest"
                BlueprintName = "MnswprTests"
                ReferencedContainer = "container:Mnswpr.xcodeproj">
             </BuildableReference>
@@ -42,8 +42,8 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4469E58A1BB77B220025A204"
-               BuildableName = "Mnswpr.xctest"
+               BlueprintIdentifier = "4496C58D1BBAE8670086A20C"
+               BuildableName = "MnswprUITests.xctest"
                BlueprintName = "MnswprUITests"
                ReferencedContainer = "container:Mnswpr.xcodeproj">
             </BuildableReference>
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4469E56B1BB77B220025A204"
+            BlueprintIdentifier = "4496C56E1BBAE8660086A20C"
             BuildableName = "Mnswpr.app"
             BlueprintName = "Mnswpr"
             ReferencedContainer = "container:Mnswpr.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4469E56B1BB77B220025A204"
+            BlueprintIdentifier = "4496C56E1BBAE8660086A20C"
             BuildableName = "Mnswpr.app"
             BlueprintName = "Mnswpr"
             ReferencedContainer = "container:Mnswpr.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4469E56B1BB77B220025A204"
+            BlueprintIdentifier = "4496C56E1BBAE8660086A20C"
             BuildableName = "Mnswpr.app"
             BlueprintName = "Mnswpr"
             ReferencedContainer = "container:Mnswpr.xcodeproj">
@@ -106,7 +106,6 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
-      customArchiveName = "Mnswpr"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

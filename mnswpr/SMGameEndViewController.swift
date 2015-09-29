@@ -152,7 +152,7 @@ class SMGameEndViewController: UIViewController {
             finished in
             
             if let delegate = self.delegate {
-                //delegate.resetScene()
+                delegate.resetScene()
             }
         
             self.dismissViewControllerAnimated(false, completion: nil)

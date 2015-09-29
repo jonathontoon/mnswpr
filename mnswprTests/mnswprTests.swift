@@ -2,12 +2,12 @@
 //  MnswprTests.swift
 //  MnswprTests
 //
-//  Created by Jonathon Toon on 9/27/15.
+//  Created by Jonathon Toon on 9/30/15.
 //  Copyright © 2015 Jonathon Toon. All rights reserved.
 //
 
 import XCTest
-@testable import mnswpr
+@testable import Mnswpr
 
 class MnswprTests: XCTestCase {
     
