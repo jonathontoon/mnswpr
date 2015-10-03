@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AF56EB86ADFE1E6C8D867D01"
-               BuildableName = "UIDeviceUtil.framework"
-               BlueprintName = "UIDeviceUtil"
+               BlueprintIdentifier = "5CB06EE94284C65C7835764D"
+               BuildableName = "DeviceGuru.framework"
+               BlueprintName = "DeviceGuru"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

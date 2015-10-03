@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DeviceGuru.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -14,25 +19,20 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>UIDeviceUtil.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3D63C0F6CF90073ABED2BAF3C3049B87</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>5256D377993AC10F7C90417B078C4010</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B7D9C0FB2A26FEA9B70E1D597C597CEB</key>
+		<key>81A6931F9FE3B9EC1BD9AF0B896E905F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F06668563DCD0DC31A2ED3E17FB817AC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

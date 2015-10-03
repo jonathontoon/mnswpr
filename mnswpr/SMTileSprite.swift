@@ -8,6 +8,7 @@
 
 import UIKit
 import SpriteKit
+import DeviceGuru
 
 class SMTileSprite: SKSpriteNode {
 
@@ -54,15 +55,15 @@ class SMTileSprite: SKSpriteNode {
     
     func createTextSprite() -> SKLabelNode {
         
-        let deviceType : DeviceTypes = UIDevice().deviceType
+        let deviceType: String = DeviceGuru.hardwareDescription()!
         
         var labelPosition: CGPoint! = self.tile.numNeighboringMines > 1 ? CGPointMake(0.5, -6.5) : CGPointMake(0, -6.5)
         
         // Is iPhone4S or 5/S/C
-        if deviceType.rawValue == "iPhone 4S" {
+        if deviceType.containsString("iPhone 4") {
             labelPosition = self.tile.numNeighboringMines > 1 ? CGPointMake(0.75, -7.5) : CGPointMake(0, -7)
-        } else if deviceType.rawValue == "iPhone 5" || deviceType.rawValue == "iPhone 5S" || deviceType.rawValue == "iPhone 5C" {
-            labelPosition = CGPointMake(1, -0.25)
+        } else if deviceType.containsString("iPhone 5") {
+            labelPosition = CGPointMake(1, -7)
         }
         
         let label = SKLabelNode(text: self.tile.numNeighboringMines.description)

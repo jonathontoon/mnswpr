@@ -52,10 +52,10 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'Pods/DeviceGuru.framework'
   install_framework 'Pods/UIColor_Hex_Swift.framework'
-  install_framework 'Pods/UIDeviceUtil.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'Pods/DeviceGuru.framework'
   install_framework 'Pods/UIColor_Hex_Swift.framework'
-  install_framework 'Pods/UIDeviceUtil.framework'
 fi

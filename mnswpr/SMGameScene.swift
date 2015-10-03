@@ -8,6 +8,7 @@
 
 import SpriteKit
 import UIColor_Hex_Swift
+import DeviceGuru
 import AVFoundation
 import AudioToolbox
 
@@ -62,22 +63,23 @@ class SMGameScene: SKScene {
     
     override func didMoveToView(view: SKView) {
         
-        let deviceType : DeviceTypes = UIDevice().deviceType
+        let deviceType: String = DeviceGuru.hardwareDescription()!
+        //print(deviceType)
         
-        if deviceType.rawValue == "iPhone 4S" || deviceType.rawValue == "iPhone 5" || deviceType.rawValue == "iPhone 5S" || deviceType.rawValue == "iPhone 5C" {
+        if deviceType.containsString("Simulator") || deviceType.containsString("iPhone 5") {
             
             self.boardTextures = [SKTexture(imageNamed: "bombMaskSmall"), SKTexture(imageNamed: "flagMaskSmall")]
             
-        } else if deviceType.rawValue == "Simulator" || deviceType.rawValue == "iPhone 6S" {
+        } else if deviceType.containsString("iPhone 6") {
             
-            self.boardTextures = [SKTexture(imageNamed: "bombMaskMedium"), SKTexture(imageNamed: "flagMaskMedium")]
-            
-        } else if deviceType.rawValue == "iPhone 6 Plus" || deviceType.rawValue == "iPhone 6S Plus" {
-            
-            self.boardTextures = [SKTexture(imageNamed: "bombMaskLarge"), SKTexture(imageNamed: "flagMaskLarge")]
+            if deviceType.containsString("iPhone 6 Plus") {
+                self.boardTextures = [SKTexture(imageNamed: "bombMaskLarge"), SKTexture(imageNamed: "flagMaskLarge")]
+            } else {
+                self.boardTextures = [SKTexture(imageNamed: "bombMaskMedium"), SKTexture(imageNamed: "flagMaskMedium")]
+            }
             
         }
-        
+
         self.touchDownSound = try? AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: NSString(format: "%@/tapMellow.wav", NSBundle.mainBundle().resourcePath!) as String))
         self.touchUpSound = try? AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: NSString(format: "%@/tapMellow.wav", NSBundle.mainBundle().resourcePath!) as String))
 
@@ -338,7 +340,9 @@ class SMGameScene: SKScene {
     // NSNotificationCenter callbacks
     
     func pauseTimer(notification: NSNotification!) {
-        self.gameTimer.invalidate()
+        if self.gameTimer != nil {
+            self.gameTimer.invalidate()
+        }
     }
     
     func resumeTimer(notification: NSNotification!) {
