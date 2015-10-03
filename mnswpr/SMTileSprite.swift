@@ -59,7 +59,7 @@ class SMTileSprite: SKSpriteNode {
         
         var labelPosition: CGPoint! = self.tile.numNeighboringMines > 1 ? CGPointMake(0.5, -6.5) : CGPointMake(0, -6.5)
         
-        // Is iPhone4S or 5/S/C
+        // Is iPhone 4 or 5
         if deviceType.containsString("iPhone 4") {
             labelPosition = self.tile.numNeighboringMines > 1 ? CGPointMake(0.75, -7.5) : CGPointMake(0, -7)
         } else if deviceType.containsString("iPhone 5") {
