@@ -64,9 +64,8 @@ class SMGameScene: SKScene {
     override func didMoveToView(view: SKView) {
         
         let deviceType: String = DeviceGuru.hardwareDescription()!
-        //print(deviceType)
         
-        if deviceType.containsString("Simulator") || deviceType.containsString("iPhone 5") {
+        if deviceType.containsString("iPhone 4") || deviceType.containsString("iPhone 5") {
             
             self.boardTextures = [SKTexture(imageNamed: "bombMaskSmall"), SKTexture(imageNamed: "flagMaskSmall")]
             

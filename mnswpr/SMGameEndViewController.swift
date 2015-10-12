@@ -39,7 +39,7 @@ class SMGameEndViewController: UIViewController {
         self.view.backgroundColor = UIColor.blackColor().colorWithAlphaComponent(0.84)
         self.view.alpha = 0.0
         
-        let faceImage = UIImageView(image: (self.endGameStats["flaggedMineCount"] as! Int) == (self.endGameStats["mineCount"] as! Int) ? UIImage(named: "happyFace") : UIImage(named: "sadFace"))
+        let faceImage = UIImageView(image: (self.endGameStats["flaggedMineCount"] as! Int) == (self.endGameStats["mineCount"] as! Int) ? UIImage(named: "happyface") : UIImage(named: "sadface"))
             faceImage.frame = CGRectMake(0, 0, 46.0, 46.0)
             faceImage.center = CGPointMake(self.view.center.x, self.view.center.y - (23.0 + 30.0))
         self.view.addSubview(faceImage)
