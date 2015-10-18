@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D0B3D1441721D5078DDA659 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72206BDBE62968111F507D67 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1D0B3D1441721D5078DDA659 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72206BDBE62968111F507D67 /* Pods.framework */; };
 		4496C57A1BBAE8660086A20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4496C5791BBAE8660086A20C /* Assets.xcassets */; };
 		4496C5881BBAE8670086A20C /* MnswprTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5871BBAE8670086A20C /* MnswprTests.swift */; };
 		4496C5931BBAE8670086A20C /* MnswprUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5921BBAE8670086A20C /* MnswprUITests.swift */; };
@@ -43,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		445997181BD37A690019C9C7 /* SF-UI-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Bold.otf"; sourceTree = "<group>"; };
 		4496C56F1BBAE8660086A20C /* Mnswpr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mnswpr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4496C5791BBAE8660086A20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4496C57E1BBAE8660086A20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -130,6 +131,7 @@
 				4496C5A81BBAE8800086A20C /* SMTile.swift */,
 				4496C5A91BBAE8800086A20C /* SMTileSprite.swift */,
 				4496C5AA1BBAE8800086A20C /* Utilities.swift */,
+				445997181BD37A690019C9C7 /* SF-UI-Display-Bold.otf */,
 				4496C5B61BBAE8870086A20C /* tapMellow.wav */,
 				4496C5B71BBAE8870086A20C /* tapMellowUp.wav */,
 				4496C5791BBAE8660086A20C /* Assets.xcassets */,

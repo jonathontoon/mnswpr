@@ -1,5 +1,5 @@
 PODS:
-  - DeviceGuru (1.2.2)
+  - DeviceGuru (1.2.3)
   - UIColor_Hex_Swift (1.2)
 
 DEPENDENCIES:
@@ -7,7 +7,7 @@ DEPENDENCIES:
   - UIColor_Hex_Swift (~> 1.1)
 
 SPEC CHECKSUMS:
-  DeviceGuru: df990748769649b682502bfc2e8c272b903ec424
+  DeviceGuru: 6703820f7058693781c0048184eb4c3594b602cc
   UIColor_Hex_Swift: a1eff7380ffffed64b1540268e958ecdaa5fbd72
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0
