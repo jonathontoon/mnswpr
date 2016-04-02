@@ -133,11 +133,11 @@ class SMGameScene: SKScene {
         self.touchUpSound!.prepareToPlay()
         self.bombExplodeSound!.prepareToPlay()
         
-        self.gameTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "updateTime", userInfo: nil, repeats: true)
+        self.gameTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: #selector(SMGameScene.updateTime), userInfo: nil, repeats: true)
         
-         NSNotificationCenter.defaultCenter().addObserver(self, selector: "pauseTimer:", name: UIApplicationWillResignActiveNotification, object: nil)
+         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(SMGameScene.pauseTimer(_:)), name: UIApplicationWillResignActiveNotification, object: nil)
         
-         NSNotificationCenter.defaultCenter().addObserver(self, selector: "resumeTimer:", name: UIApplicationDidBecomeActiveNotification, object: nil)
+         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(SMGameScene.resumeTimer(_:)), name: UIApplicationDidBecomeActiveNotification, object: nil)
     }
         
     func reloadSprites() {
@@ -178,7 +178,7 @@ class SMGameScene: SKScene {
             self.boardSprites.append(boardSpriteRow)
         }
         
-        self.gameTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "updateTime", userInfo: nil, repeats: true)
+        self.gameTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: #selector(SMGameScene.updateTime), userInfo: nil, repeats: true)
         self.gameTime = 0
     }
 
@@ -204,7 +204,7 @@ class SMGameScene: SKScene {
                         self.touchDownSound!.play()
 
                         self.lastTouchedSprite = mineTile
-                        self.longPressTimer = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: Selector("addFlagToTile"), userInfo: nil, repeats: false)
+                        self.longPressTimer = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: #selector(SMGameScene.addFlagToTile), userInfo: nil, repeats: false)
                         
                         let scaleAction = SKAction.scaleTo(0.9, duration: 0.1)
                         mineTile.runAction(scaleAction)
@@ -329,7 +329,7 @@ class SMGameScene: SKScene {
             }
         }
         
-        NSTimer.scheduledTimerWithTimeInterval(0.45, target: self, selector: Selector("reloadSprites"), userInfo: nil, repeats: false)
+        NSTimer.scheduledTimerWithTimeInterval(0.45, target: self, selector: #selector(SMGameScene.reloadSprites), userInfo: nil, repeats: false)
     }
     
     func updateTime() {
@@ -348,7 +348,7 @@ class SMGameScene: SKScene {
         
         if self.gameTimer != nil {
             
-            self.gameTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "updateTime", userInfo: nil, repeats: true)
+            self.gameTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: #selector(SMGameScene.updateTime), userInfo: nil, repeats: true)
         }
     }
 }

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '54949B3C594DF2F74CEA5C56'
-               BlueprintName = 'UIColor_Hex_Swift'
+               BlueprintIdentifier = '7B5DB9ECDA6999FD116D1533'
+               BlueprintName = 'DeviceGuru-DeviceGuru'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'UIColor_Hex_Swift.framework'>
+               BuildableName = 'DeviceGuru.bundle'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

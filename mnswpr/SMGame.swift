@@ -78,7 +78,7 @@ class SMGame {
         // for each neighbor with a mine, add 1 to this tile's count
         for neighbortile in neighbors {
             if neighbortile.isMineLocation {
-                numNeighboringMines++
+                numNeighboringMines += 1
             }
         }
         
@@ -134,22 +134,22 @@ class SMGame {
             for r in 0..<self.rows {
                 
                 if self.tiles[c][r].isFlagged {
-                    flagCount++
+                    flagCount += 1
                     
                 }
                 
                 if self.tiles[c][r].isMineLocation {
                     
-                    mineCount++
+                    mineCount += 1
                     
                 }
                 
                 if self.tiles[c][r].isFlagged && self.tiles[c][r].isMineLocation {
-                    flaggedMineCount++
+                    flaggedMineCount += 1
                 }
                 
                 if self.tiles[c][r].isRevealed {
-                    revealedTileCount++
+                    revealedTileCount += 1
                 }
                 
             }

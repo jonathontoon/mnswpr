@@ -11,18 +11,18 @@
 		4496C57A1BBAE8660086A20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4496C5791BBAE8660086A20C /* Assets.xcassets */; };
 		4496C5881BBAE8670086A20C /* MnswprTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5871BBAE8670086A20C /* MnswprTests.swift */; };
 		4496C5931BBAE8670086A20C /* MnswprUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5921BBAE8670086A20C /* MnswprUITests.swift */; };
-		4496C5A11BBAE8710086A20C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A01BBAE8710086A20C /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
-		4496C5AC1BBAE8800086A20C /* SMGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A21BBAE8800086A20C /* SMGame.swift */; settings = {ASSET_TAGS = (); }; };
-		4496C5AD1BBAE8800086A20C /* SMGameEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A31BBAE8800086A20C /* SMGameEndViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		4496C5AE1BBAE8800086A20C /* SMGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A41BBAE8800086A20C /* SMGameScene.swift */; settings = {ASSET_TAGS = (); }; };
-		4496C5AF1BBAE8800086A20C /* SMGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A51BBAE8800086A20C /* SMGameViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		4496C5B01BBAE8800086A20C /* SMThemeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A61BBAE8800086A20C /* SMThemeController.swift */; settings = {ASSET_TAGS = (); }; };
-		4496C5B11BBAE8800086A20C /* SMThemeGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A71BBAE8800086A20C /* SMThemeGradient.swift */; settings = {ASSET_TAGS = (); }; };
-		4496C5B21BBAE8800086A20C /* SMTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A81BBAE8800086A20C /* SMTile.swift */; settings = {ASSET_TAGS = (); }; };
-		4496C5B31BBAE8800086A20C /* SMTileSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A91BBAE8800086A20C /* SMTileSprite.swift */; settings = {ASSET_TAGS = (); }; };
-		4496C5B41BBAE8800086A20C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5AA1BBAE8800086A20C /* Utilities.swift */; settings = {ASSET_TAGS = (); }; };
-		4496C5B81BBAE8870086A20C /* tapMellow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4496C5B61BBAE8870086A20C /* tapMellow.wav */; settings = {ASSET_TAGS = (); }; };
-		4496C5B91BBAE8870086A20C /* tapMellowUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4496C5B71BBAE8870086A20C /* tapMellowUp.wav */; settings = {ASSET_TAGS = (); }; };
+		4496C5A11BBAE8710086A20C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A01BBAE8710086A20C /* AppDelegate.swift */; };
+		4496C5AC1BBAE8800086A20C /* SMGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A21BBAE8800086A20C /* SMGame.swift */; };
+		4496C5AD1BBAE8800086A20C /* SMGameEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A31BBAE8800086A20C /* SMGameEndViewController.swift */; };
+		4496C5AE1BBAE8800086A20C /* SMGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A41BBAE8800086A20C /* SMGameScene.swift */; };
+		4496C5AF1BBAE8800086A20C /* SMGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A51BBAE8800086A20C /* SMGameViewController.swift */; };
+		4496C5B01BBAE8800086A20C /* SMThemeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A61BBAE8800086A20C /* SMThemeController.swift */; };
+		4496C5B11BBAE8800086A20C /* SMThemeGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A71BBAE8800086A20C /* SMThemeGradient.swift */; };
+		4496C5B21BBAE8800086A20C /* SMTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A81BBAE8800086A20C /* SMTile.swift */; };
+		4496C5B31BBAE8800086A20C /* SMTileSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5A91BBAE8800086A20C /* SMTileSprite.swift */; };
+		4496C5B41BBAE8800086A20C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496C5AA1BBAE8800086A20C /* Utilities.swift */; };
+		4496C5B81BBAE8870086A20C /* tapMellow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4496C5B61BBAE8870086A20C /* tapMellow.wav */; };
+		4496C5B91BBAE8870086A20C /* tapMellowUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4496C5B71BBAE8870086A20C /* tapMellowUp.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -489,7 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = Mnswpr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jonathon-Toon.Mnswpr";
@@ -503,7 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = Mnswpr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jonathon-Toon.Mnswpr";

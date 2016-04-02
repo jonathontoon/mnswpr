@@ -123,7 +123,7 @@ class SMGameEndViewController: UIViewController {
         self.resetButton.layer.cornerRadius = 23.0
         self.resetButton.layer.borderColor = UIColor.whiteColor().CGColor
         self.resetButton.layer.borderWidth = 3.0
-        self.resetButton.addTarget(self, action: "startReset", forControlEvents: UIControlEvents.TouchUpInside)
+        self.resetButton.addTarget(self, action: #selector(SMGameEndViewController.startReset), forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(self.resetButton)
     }
 
