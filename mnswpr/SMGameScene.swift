@@ -65,7 +65,7 @@ class SMGameScene: SKScene {
         
         let deviceType: String = DeviceGuru.hardwareDescription()!
         
-        if deviceType.containsString("iPhone 4") || deviceType.containsString("iPhone 5") {
+        if deviceType.containsString("iPhone 4") || deviceType.containsString("iPhone 5") || deviceType.containsString("iPhone SE") {
             
             self.boardTextures = [SKTexture(imageNamed: "bombMaskSmall"), SKTexture(imageNamed: "flagMaskSmall")]
             
