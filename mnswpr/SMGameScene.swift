@@ -8,7 +8,7 @@
 
 import SpriteKit
 import UIColor_Hex_Swift
-import DeviceGuru
+import DeviceKit
 import AVFoundation
 import AudioToolbox
 
@@ -57,26 +57,21 @@ class SMGameScene: SKScene {
 
     override func willMoveFromView(view: SKView) {
         SKTexture.preloadTextures(self.boardTextures, withCompletionHandler: {
-        
         })
     }
     
     override func didMoveToView(view: SKView) {
         
-        let deviceType: String = DeviceGuru.hardwareDescription()!
+        let isSmallDevice = Device().isOneOf([.iPodTouch5, .iPodTouch5, .iPhone4, .iPhone4s, .iPhone5, .iPhone5c, .iPhone5s, .iPhoneSE, .Simulator(.iPodTouch5), .Simulator(.iPodTouch5), .Simulator(.iPhone4), .Simulator(.iPhone4s), .Simulator(.iPhone5), .Simulator(.iPhone5c), .Simulator(.iPhone5s), .Simulator(.iPhoneSE)]) || Device().isPad 
+        let isMediumDevice = Device().isOneOf([.iPhone6, .iPhone6s, .Simulator(.iPhone6), .Simulator(.iPhone6s)])
+        let isLargeDevice = Device().isOneOf([.Simulator(.iPhone6Plus), .Simulator(.iPhone6sPlus)])
         
-        if deviceType.containsString("iPhone 4") || deviceType.containsString("iPhone 5") || deviceType.containsString("iPhone SE") {
-            
+        if isSmallDevice {
             self.boardTextures = [SKTexture(imageNamed: "bombMaskSmall"), SKTexture(imageNamed: "flagMaskSmall")]
-            
-        } else if deviceType.containsString("iPhone 6") {
-            
-            if deviceType.containsString("iPhone 6 Plus") {
-                self.boardTextures = [SKTexture(imageNamed: "bombMaskLarge"), SKTexture(imageNamed: "flagMaskLarge")]
-            } else {
-                self.boardTextures = [SKTexture(imageNamed: "bombMaskMedium"), SKTexture(imageNamed: "flagMaskMedium")]
-            }
-            
+        } else if isMediumDevice {
+            self.boardTextures = [SKTexture(imageNamed: "bombMaskMedium"), SKTexture(imageNamed: "flagMaskMedium")]
+        } else if isLargeDevice {
+             self.boardTextures = [SKTexture(imageNamed: "bombMaskLarge"), SKTexture(imageNamed: "flagMaskLarge")]
         }
 
         self.touchDownSound = try? AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: NSString(format: "%@/tapMellow.wav", NSBundle.mainBundle().resourcePath!) as String))

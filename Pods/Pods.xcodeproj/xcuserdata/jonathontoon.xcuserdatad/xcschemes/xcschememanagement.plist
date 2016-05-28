@@ -4,12 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DeviceGuru-DeviceGuru.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>DeviceGuru.xcscheme</key>
+		<key>DeviceKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,22 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>491128A41DD1E1A81943434E17F25116</key>
+		<key>5737AF74E85740EA8B27897BD3ACD729</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>93FD525501A9FDFEA0725F3D81FBB9B6</key>
+		<key>D2AEC735F6E55F2EB73829E30C554641</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D8BE0AD446F8A48DB1B9C574D840F012</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E82F5316FC3AB77A8C14C77E23AF396B</key>
+		<key>EF78824223C74AA13AE655CD2ACF32A3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

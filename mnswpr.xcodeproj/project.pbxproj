@@ -489,8 +489,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Mnswpr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jonathon-Toon.Mnswpr";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,8 +504,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				INFOPLIST_FILE = Mnswpr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jonathon-Toon.Mnswpr";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -569,7 +572,7 @@
 				4496C5961BBAE8670086A20C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		4496C5971BBAE8670086A20C /* Build configuration list for PBXNativeTarget "Mnswpr" */ = {
 			isa = XCConfigurationList;
@@ -578,7 +581,7 @@
 				4496C5991BBAE8670086A20C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		4496C59A1BBAE8670086A20C /* Build configuration list for PBXNativeTarget "MnswprTests" */ = {
 			isa = XCConfigurationList;
@@ -587,7 +590,7 @@
 				4496C59C1BBAE8670086A20C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		4496C59D1BBAE8670086A20C /* Build configuration list for PBXNativeTarget "MnswprUITests" */ = {
 			isa = XCConfigurationList;
@@ -596,7 +599,7 @@
 				4496C59F1BBAE8670086A20C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
