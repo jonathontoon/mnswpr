@@ -64,7 +64,7 @@ class SMGameScene: SKScene {
         
         let isSmallDevice = Device().isOneOf([.iPodTouch5, .iPodTouch5, .iPhone4, .iPhone4s, .iPhone5, .iPhone5c, .iPhone5s, .iPhoneSE, .Simulator(.iPodTouch5), .Simulator(.iPodTouch5), .Simulator(.iPhone4), .Simulator(.iPhone4s), .Simulator(.iPhone5), .Simulator(.iPhone5c), .Simulator(.iPhone5s), .Simulator(.iPhoneSE)]) || Device().isPad 
         let isMediumDevice = Device().isOneOf([.iPhone6, .iPhone6s, .Simulator(.iPhone6), .Simulator(.iPhone6s)])
-        let isLargeDevice = Device().isOneOf([.Simulator(.iPhone6Plus), .Simulator(.iPhone6sPlus)])
+        let isLargeDevice = Device().isOneOf([.iPhone6Plus, .iPhone6sPlus, .Simulator(.iPhone6Plus), .Simulator(.iPhone6sPlus)])
         
         if isSmallDevice {
             self.boardTextures = [SKTexture(imageNamed: "bombMaskSmall"), SKTexture(imageNamed: "flagMaskSmall")]
@@ -123,6 +123,12 @@ class SMGameScene: SKScene {
         
         // Resize Scene
         self.resizeToFitChildNodes()
+        
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryAmbient)
+        } catch {
+                
+        }
         
         self.touchDownSound!.prepareToPlay()
         self.touchUpSound!.prepareToPlay()
