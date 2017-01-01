@@ -25,7 +25,7 @@ class SMGameViewController: UIViewController, SKSceneDelegate, SMGameEndViewCont
         if skView.scene == nil {
       
             self.gameScene = SMGameScene(size: skView.bounds.size)
-            self.gameScene.scaleMode = .AspectFit
+            self.gameScene.scaleMode = .aspectFit
             self.gameScene.delegate = self
             
             /* Sprite Kit applies additional optimizations to improve rendering performance */
@@ -34,15 +34,15 @@ class SMGameViewController: UIViewController, SKSceneDelegate, SMGameEndViewCont
         }
     }
     
-    override func shouldAutorotate() -> Bool {
+    override var shouldAutorotate : Bool {
         return true
     }
 
-    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        if UIDevice.currentDevice().userInterfaceIdiom == .Phone {
-            return UIInterfaceOrientationMask.AllButUpsideDown
+    override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            return UIInterfaceOrientationMask.allButUpsideDown
         } else {
-            return UIInterfaceOrientationMask.All
+            return UIInterfaceOrientationMask.all
         }
     }
 
@@ -51,11 +51,11 @@ class SMGameViewController: UIViewController, SKSceneDelegate, SMGameEndViewCont
         // Release any cached data, images, etc that aren't in use.
     }
 
-    override func prefersStatusBarHidden() -> Bool {
+    override var prefersStatusBarHidden : Bool {
         return true
     }
     
-    override func canBecomeFirstResponder() -> Bool {
+    override var canBecomeFirstResponder : Bool {
         return true
     }
 
@@ -72,15 +72,15 @@ class SMGameViewController: UIViewController, SKSceneDelegate, SMGameEndViewCont
             "flaggedMineCount"   : finalBoardResults[2],
             "revealedTileCount"  : finalBoardResults[3],
             "totalTiles"         : self.gameScene.board.columns * self.gameScene.board.rows
-        ]
+        ] as [String : Any]
         
         self.gameScene.resetBoard()
         
-        let gameEndedViewController = SMGameEndViewController(stats: gameStats)
+        let gameEndedViewController = SMGameEndViewController(stats: gameStats as NSDictionary)
             gameEndedViewController.delegate = self
-            gameEndedViewController.modalPresentationStyle = UIModalPresentationStyle.OverCurrentContext
+            gameEndedViewController.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
         
-        self.presentViewController(gameEndedViewController, animated: true, completion: nil)
+        self.present(gameEndedViewController, animated: true, completion: nil)
     }
     
     // SMGameEndViewControllerDelegate

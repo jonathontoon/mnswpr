@@ -64,12 +64,12 @@ class SMGame {
     }
 
     // algorithm for deciding whether object will contain a mine
-    func calculateIsMineLocationForTile(tile: SMTile) {
+    func calculateIsMineLocationForTile(_ tile: SMTile) {
         tile.isMineLocation = (arc4random_uniform(10) == 0) // 1-in-7 chance that each location contains a mine
     }
     
     // how many cell adjacent to this one contain a mine
-    func calculateNumNeighborMinesForTile(tile : SMTile) {
+    func calculateNumNeighborMinesForTile(_ tile : SMTile) {
         
         // first get a list of adjacent tiles
         let neighbors = getNeighboringTiles(tile, includingDiagonal: true)
@@ -86,7 +86,7 @@ class SMGame {
     }
     
     // get array of neighboring cells' tile objects
-    func getNeighboringTiles(tile: SMTile!, includingDiagonal isDiagonal: Bool!) -> [SMTile] {
+    func getNeighboringTiles(_ tile: SMTile!, includingDiagonal isDiagonal: Bool!) -> [SMTile] {
         var neighbors:[SMTile] = []
         
         // an array of tuples containing the relative position of each neighbor to the tile
@@ -115,7 +115,7 @@ class SMGame {
     }
     
     // return a tile object for a particular cell location
-    func getObjectAtLocation(row: Int, col: Int) -> SMTile? {
+    func getObjectAtLocation(_ row: Int, col: Int) -> SMTile? {
         if row >= 0 && row < self.rows && col >= 0 && col < self.columns {
             return tiles[col][row]
         } else {

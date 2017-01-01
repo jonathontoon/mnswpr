@@ -25,14 +25,14 @@ class SMThemeGradient {
         let numberOfIntervals: Int = self.columns * self.rows
         
         let startColor: UIColor! = startColor
-        var startColorR: CGFloat = CGColorGetComponents(startColor.CGColor)[0]
-        var startColorG: CGFloat = CGColorGetComponents(startColor.CGColor)[1]
-        var startColorB: CGFloat = CGColorGetComponents(startColor.CGColor)[2]
+        var startColorR: CGFloat = startColor.cgColor.components![0]
+        var startColorG: CGFloat = startColor.cgColor.components![1]
+        var startColorB: CGFloat = startColor.cgColor.components![2]
        
         let endColor: UIColor! = endColor
-        let endColorR: CGFloat = CGColorGetComponents(endColor.CGColor)[0]
-        let endColorG: CGFloat = CGColorGetComponents(endColor.CGColor)[1]
-        let endColorB: CGFloat = CGColorGetComponents(endColor.CGColor)[2]
+        let endColorR: CGFloat = endColor.cgColor.components![0]
+        let endColorG: CGFloat = endColor.cgColor.components![1]
+        let endColorB: CGFloat = endColor.cgColor.components![2]
         
         let intervalR: CGFloat = (endColorR - startColorR) / CGFloat(numberOfIntervals)
         let intervalG: CGFloat = (endColorG - startColorG) / CGFloat(numberOfIntervals)
@@ -97,11 +97,11 @@ class SMThemeGradient {
                     
                 }
                 
-                let colors: [CGColorRef] = [startGradientColor.CGColor, endGradientColor.CGColor]
+                let colors: [CGColor] = [startGradientColor.cgColor, endGradientColor.cgColor]
                 
                 let gradientLayer: CAGradientLayer = CAGradientLayer()
-                    gradientLayer.startPoint = CGPointZero
-                    gradientLayer.endPoint = CGPointMake(1, 1)
+                    gradientLayer.startPoint = CGPoint.zero
+                    gradientLayer.endPoint = CGPoint(x: 1, y: 1)
                     gradientLayer.colors = colors
                 
                 cellGradientRows.append(gradientLayer)

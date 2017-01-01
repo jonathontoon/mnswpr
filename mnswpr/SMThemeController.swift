@@ -56,8 +56,8 @@ class SMThemeController {
         self.currentThemeGradient = SMThemeGradient(
             numberOfColumns: self.columns,
             numberOfRows: self.rows,
-            startColor: UIColor(rgba: self.boardThemes[self.currentThemeName]!.startGradientColor),
-            endColor: UIColor(rgba: self.boardThemes[self.currentThemeName]!.endGradientColor)
+            startColor: UIColor(self.boardThemes[self.currentThemeName]!.startGradientColor),
+            endColor: UIColor(self.boardThemes[self.currentThemeName]!.endGradientColor)
         )
     }
 
@@ -68,6 +68,6 @@ class SMThemeController {
     }
     
     class func bombLevelColor() -> UIColor {
-        return UIColor(rgba: "#FF2828")
+        return UIColor("#FF2828")
     }
 }
