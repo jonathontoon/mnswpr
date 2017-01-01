@@ -1,13 +1,15 @@
 PODS:
-  - DeviceKit (0.3.2)
-  - UIColor_Hex_Swift (1.9)
+  - DeviceKit (1.0.0)
+  - UIColor_Hex_Swift (3.0.2)
 
 DEPENDENCIES:
-  - DeviceKit (~> 0.3.0)
-  - UIColor_Hex_Swift (~> 1.1)
+  - DeviceKit (~> 1.0)
+  - UIColor_Hex_Swift (~> 3.0.2)
 
 SPEC CHECKSUMS:
-  DeviceKit: 79182140c0aa8daaf4f4b3920e0b079f5fa9db79
-  UIColor_Hex_Swift: 2ee747c0fed8b72b2135ef474b80a6921e489daa
+  DeviceKit: ddead7f3a7c9603ba3a63cb748566428c38dd11f
+  UIColor_Hex_Swift: 95f718452092a3efc8a827dffd2c04d3237be02d
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 50828c881976c66add1ca5541da1592f9f11d046
+
+COCOAPODS: 1.1.1

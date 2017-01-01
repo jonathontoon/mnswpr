@@ -9,7 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods.xcscheme</key>
+		<key>Pods-Mnswpr.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5737AF74E85740EA8B27897BD3ACD729</key>
+		<key>7B7E9CC68F8F10F36D13A0A335E0D97F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D2AEC735F6E55F2EB73829E30C554641</key>
+		<key>990D0AE4017D6203A2E6EEA79EBF7D6E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EF78824223C74AA13AE655CD2ACF32A3</key>
+		<key>B74671AC4AD442223B677430EE6BBBF5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
